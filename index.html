@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-<title>notepad</title>
+<head> 
+<meta charset="utf-8"> 
+<title>学生会</title> 
 </head>
-<style type="text/css">
-ol,ul{
-display:block;
-list-style-type:none;
-margin:3px;
+<body>
+
+<p id="demo"></p>
+<button type="button" onclick="myFunction()">宣群收费标准</button>
+<script>
+function myFunction(){
+  var button = document.querySelector('button');
+  button.style.display = 'none';
+	document.getElementById("demo").innerHTML="我的第一个 JavaScript 函数";
 }
-</style><body>
-<div><div align="center"  >&#12298;&#20851;&#20110;&#22312;&#23398;&#29983;&#20250;&#23459;&#20256;&#30340;&#25910;&#36153;&#35268;&#23450;&#12299;</div></div><div><div><input type="checkbox"> 要在学生会宣传的，都必须先向群主或管理申请</div></div><div><div><input type="checkbox"> 宣传一次，我们要收50块！</div></div><div><div><input type="checkbox"> 如果要扩大宣传影响的（如：艾特全体成员的，发布群公告的）都均要收取30块！</div></div><div><div><input type="checkbox"> 宣传过第一次的，继续宣传第二次的，只收取40块！</div></div><div><div><input type="checkbox"> 当然…如果觉得太贵，可以选择购买学生会的宣传特权卡，只需要100块，就可以自由宣传</div></div><div>&#26368;&#21518;&#65292;&#22914;&#26524;&#27809;&#38065;&#65292;&#23601;&#32473;&#25105;&#32769;&#23454;&#28857;&#65281;<br>
-<br>
-<br>
-<br>
-<br>
-<div align="center"  ><br>
-</div></div>
+</script>
+	
 </body>
 </html>
