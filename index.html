@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head> 
-<meta charset="utf-8"> 
-<title>学生会</title> 
+<head>
+<meta charset="utf-8">
+<title>学生会</title>
 </head>
 <body>
 
 <p id="demo"></p>
-<button type="button" onclick="myFunction()">宣群收费标准</button>
+<button type="button" onclick="mybutton()">宣群收费标准</button>
 <script>
-function myFunction(){
-  var button = document.querySelector('button');
-  button.style.display = 'none';
-	document.getElementById("demo").innerHTML="等待我写";
-}
+function mybutton(){
+  // 设置跳转的URL
+  var url = "htmls/宣群收费标准.html";
+  // 使用 window.location.href 跳转到指定URL
+  window.location.href = url;
+};
 </script>
-	
+
 </body>
 </html>
